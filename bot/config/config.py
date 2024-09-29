@@ -9,9 +9,9 @@ class Settings(BaseSettings):
 
     REF_LINK: str = "t.me/seed_coin_bot/app?startapp=558455838"
 
-    AUTO_UPGRADE_STORAGE: bool = True
-    AUTO_UPGRADE_MINING: bool = True
-    AUTO_UPGRADE_HOLY: bool = True
+    AUTO_UPGRADE_STORAGE: bool = False
+    AUTO_UPGRADE_MINING: bool = False
+    AUTO_UPGRADE_HOLY: bool = False
     AUTO_CLEAR_TASKS: bool = True
     AUTO_START_HUNT: bool = True
 
